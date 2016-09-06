@@ -3,4 +3,8 @@ CONFIG += console
 CONFIG -= app_bundle
 CONFIG -= qt
 
-SOURCES += main.c
+SOURCES += main.c \
+    arraylist.c
+
+HEADERS += \
+    arraylist.h
